@@ -1,0 +1,37 @@
+.textfield {
+	border-radius: 4px;
+	width: 70%;
+	height: 25px;
+	margin-left: 10px;
+}
+
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: url('Photos/red-christmas-background.jpg') no-repeat;
+	background-size: 100%;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+.oneColFixCtr #container {
+	width: 450px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+	background: #bb070a;
+	margin: 100px auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #FFFFFF;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+	height: 260px;
+	border-radius: 30px;
+}
+.oneColFixCtr #mainContent {
+	padding: 0 40px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+}
+.oneColFixCtr #butLogin {
+	text-align: right;
+}
+#butLogin #abc {
+	border-radius: 4px;
+	width: 70px;
+	height: 30px;
+	margin-right: 35px;
+}

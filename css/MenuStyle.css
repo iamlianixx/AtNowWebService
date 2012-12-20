@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul.topmenu, ul.topmenu ul {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+ul.topmenu li {
+  list-style: none;
+  margin: 0;
+  padding-right: 1.5em;
+}
+
+li.submenu ul {
+    margin-left: -999em;/* hide initially  off screen  */
+    height: 0;
+    overflow: hidden;
+    //display: none;
+}
+
+li:hover ul {/* this should really be handled when clicked not hovered*/
+    //display: block;
+    margin-left: 15px;
+    height: auto;
+    overflow: visible;
+}
+
+li.submenu ul:hover {
+    background: #fff;
+}
